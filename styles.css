@@ -147,9 +147,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 330px);
   } */
-  .features{
+  /* .features{
     display: grid;
     height: 660px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  } */
+  .features{
+    display: grid;
+    height: 660px;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
   }
