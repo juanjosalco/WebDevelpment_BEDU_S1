@@ -142,3 +142,7 @@ body {
     width: 120px;
     margin-top: 10px;
   }
+  .features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 1fr);
+  }
